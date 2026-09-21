@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+        <script data-goatcounter="https://petroleumcat.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+        <title>Docs</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Petroleum Cat Productions</h1>
+            <p class="tagline">Independent Animation & Art Studio</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="https://petroleumcat.github.io/">Home</a></li>
+                <li><a href="https://petroleumcat.github.io/about/">About</a></li>
+                <li><a class="active" href="https://petroleumcat.github.io/docs/">Docs</a></li>
+                <li><a href="https://petroleumcat.github.io/projects/">Projects</a></li>
+                <li><a href="https://petroleumcat.github.io/contact/">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="docs-intro">
+                <p>
+                    Documentation, notes, and technical information related to Petroleum Cat Productions and its
+                    projects.
+                </p>
+            </div>
+
+            <div class="docs"></div>
+        </main>
+
+        <footer>
+            <div class="footer-line"></div>
+
+            <p>Copyright © 2026 - <span id="year"></span> Petroleum Cat Productions</p>
+
+            <p>
+                This site is open source and licensed under the
+                <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>.
+                <a href="https://github.com/petroleumcat/petroleumcat.github.io/docs/">Improve this page</a>.
+            </p>
+        </footer>
+
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+    </body>
+</html>
